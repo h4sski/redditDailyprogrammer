@@ -89,13 +89,6 @@ public class Challenge365Easy {
         return result;
     }
 
-    /*
-    1 -> +
-    2 -> -
-    3 -> *
-    4 -> /
-    5 -> ^
-     */
     private static int calculate(int a, String b, int c) {
         int result=0;
         if (b=="+") {
@@ -113,22 +106,9 @@ public class Challenge365Easy {
         }
         return result;
     }
-/*
-    private static boolean testInputLenght(int[] a, String[] s, int[] b) {
-        boolean check=false;
-        if (a.length == b.length) {
-            check = true;
-        } else if (a.length == s.length) {
-            check = true;
-        } else {
-            System.out.println("Lenght of the input arrays are not equal.");
-        }
-        return check;
-    }*/
 
     public static void Challenge365Easy() {
         int[] input1 = {12, -30, 100, 100, -25, -41, 9, 9, -4, -12, 100, 75, -75, 7, 0, 5, -5, -8, -1, 1, 0, 5, 10};
-//        int[] sign = {1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5};
         String[] sign = {"+", "+", "-", "-", "-", "-", "*", "*", "*", "*", "/", "/", "/", "/", "/", "^", "^", "^", "^", "^", "^", "^", "^"};
         int[] input2 = {25, 100, 30, -30, 29, -10, 3, -4, 8, -9, 2, -3, 3, 3, 0, 3, 3, 3, 1, 1, 5, 0, -3};
         int[] result = {37, 70, 70, 130, -54, -31, 27, -36, -32, 108, 50, -25, -25, 0, 0, 125, -125, -512, -1, 1, 0, 1, 0};
