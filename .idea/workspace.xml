@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d84e83b-5784-4eeb-851a-b40aecf19154" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dailyprogrammer/Challenge364Intermediate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dailyprogrammerReddit/dailyprogrammer/Challenge364Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dailyprogrammerReddit/dailyprogrammer/Challenge364Easy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dailyprogrammerReddit/dailyprogrammer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dailyprogrammerReddit/dailyprogrammer/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dailyprogrammerReddit/dailyprogrammer/separateClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dailyprogrammerReddit/dailyprogrammer/separateClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dailyprogrammer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dailyprogrammer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dailyprogrammer/separateClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dailyprogrammer/separateClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dailyprogrammer/Challenge364Intermediate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dailyprogrammer/Challenge364Intermediate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,37 +16,40 @@
     <session id="-1278124547">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="6" />
+          <entry key="java" value="11" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="11" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4507" />
+          <entry key="java" value="5954" />
+          <entry key="txt" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4507" />
+          <entry key="JAVA" value="5954" />
+          <entry key="PLAIN_TEXT" value="61" />
         </counts>
       </usages-collector>
     </session>
@@ -70,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dailyprogrammer/Challenge364Intermediate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="484">
+              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -89,12 +87,22 @@
     <findStrings>
       <find>Main.</find>
       <find>times</find>
+      <find>new</find>
+      <find>allZero</find>
+      <find>allNonZero</find>
     </findStrings>
     <replaceStrings>
       <replace>rolls</replace>
+      <replace>finish</replace>
+      <replace>anyNonZero</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="h4sski &lt;p.rataj.praca@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -110,8 +118,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="823" />
-    <option name="y" value="-10" />
+    <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1036" />
   </component>
@@ -121,8 +128,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +153,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dailyprogrammer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dailyprogrammerReddit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailyprogrammerReddit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dailyprogrammer" type="462c0819:PsiDirectoryNode" />
+              <item name="Challenge365Easy.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -157,7 +171,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536522055965" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536533054873" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -200,6 +214,14 @@
       <option name="presentableId" value="Default" />
       <updated>1536324472655</updated>
     </task>
+    <task id="LOCAL-00001" summary="testing commit and push using IntelliJ icon">
+      <created>1536522180695</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536522180695</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -213,8 +235,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.185836" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18743344" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -246,6 +269,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="testing commit and push using IntelliJ icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing commit and push using IntelliJ icon" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dailyprogrammerReddit.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -257,24 +284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dailyprogrammer/Challenge367Easy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dailyprogrammer/Challenge365Easy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-639">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding>
-            <element signature="method#multiply#0;class#Challenge365Easy#0" />
-            <element signature="method#division#0;class#Challenge365Easy#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dailyprogrammer/separateClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -282,10 +291,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="674" column="16" selection-start-line="674" selection-start-column="16" selection-end-line="674" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dailyprogrammer/Challenge364Easy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+        <state relative-caret-position="181">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dailyprogrammer/Challenge365Easy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="method#multiply#0;class#Challenge365Easy#0" />
+            <element signature="method#division#0;class#Challenge365Easy#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dailyprogrammer/Challenge367Easy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -298,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dailyprogrammer/Challenge364Intermediate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="484">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
         </state>
       </provider>
     </entry>
